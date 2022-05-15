@@ -1,0 +1,116 @@
+/* Global css */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.global-btn {
+    width: 140px;
+    height: 40px;
+    background-color: blue;
+    color: chartreuse;
+}
+
+.global-section {
+    padding: 3rem 0;
+}
+
+.global-headding {
+    font-size: 30px;
+    text-align: center;
+}
+
+.global-p {
+    color: #787878;
+    text-align: center;
+}
+
+/* first section */
+.first-section {
+    background-image: url(./image/2749330.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.first-section h2 {
+    font-size: 5rem;
+    margin: 10x 0;
+}
+
+.first-section p {
+    font-size: 2rem;
+    margin: 10x 0;
+}
+
+/*about us section*/
+.about-main-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0;
+}
+
+.about-sub-div2 {
+    width: 500PX;
+}
+
+.about-sub-div2 h2 {
+    font-size: 33px;
+}
+
+.about-sub-div2 p {
+    color: #787878;
+    margin: 15px 0;
+}
+
+/*this is service are*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-single-item {
+    padding: 50px;
+    text-align: center;
+}
+
+.grid-single-item h2 {
+    font-size: 33px;
+}
+
+.grid-single-item p {
+    color: #787878;
+    margin: 15px 0;
+}
+
+.web-icon-size {
+    font-size: 45px;
+    color: #0f93c7;
+}
+
+.photo-icon-size {
+    font-size: 45px;
+    color: #14ad87;
+}
+
+.graphic-icon-size {
+    font-size: 45px;
+    color: #530303;
+}
+
+.video-icon-size {
+    font-size: 45px;
+    color: #5fa70e;
+}
+
+.facebook-icon-size {
+    font-size: 45px;
+    color: #18145e;
+}
+
+.ceo-icon-size {
+    font-size: 45px;
+    color: #1c753e;
+}
